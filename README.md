@@ -8,7 +8,7 @@
 4. Train a control policy for 5000 steps using the modified Soft Actor-Critic (SAC)
 
 ```
-python train.py --algo sac -vae2 path-to-vae.pkl -n 5000
+python train.py --algo sac2 -vae2 path-to-vae.pkl -n 5000
 ```
 
 5. Enjoy trained agent for 2000 steps
